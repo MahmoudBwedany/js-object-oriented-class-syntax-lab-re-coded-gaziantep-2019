@@ -13,11 +13,11 @@ class BoardMember {
     return "You can do that!"
   }
   
-  BoardMember.prototype.doCharity = Function () {
+  BoardMember.prototype.doCharity = f () {
     return "I like to help people"
   }
   
-  BoardMember.prototype.re
+  BoardMember.prototype.releasePressStatement = fun
   
   
   
