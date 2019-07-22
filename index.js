@@ -5,19 +5,25 @@ class BoardMember {
     this.training = training;
   }
   
-  BoardMember.prototype.veto = Function () {
+  BoardMember.prototype.veto = function () {
     return "No, I must disagree"
   }
   
-  BoardMember.prototype.approve = Function(){
+  BoardMember.prototype.approve = function(){
     return "You can do that!"
   }
   
-  BoardMember.prototype.doCharity = f () {
-    return "I like to help people"
+  BoardMember.prototype.doCharity = function () {
+    return "I like to help people."
   }
   
-  BoardMember.prototype.releasePressStatement = fun
+  BoardMember.prototype.releasePressStatement = function () {
+    return "You will see great thingsfrom Scuber"
+  }
+  
+  BoardMember.prototype.sayHi = function () {
+    return ("Hi, my name is " + this.name + "." + " I am from " + this.homeState + ", and I")
+  }
   
   
   
